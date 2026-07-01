@@ -120,7 +120,7 @@ function FeaturesSection() {
       </div>
       <div className="features-grid">
         {features.map((f) => (
-          <FeatureCard key={f.title} {...f} />
+          <FeatureCard className="" key={f.title} {...f} />
         ))}
       </div>
     </section>

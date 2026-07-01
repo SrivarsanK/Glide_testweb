@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { glideSourceStamping } from '@srivarsank/glide'
+import { glideSourceStamping } from 'glide-dev'
 
 // https://vite.dev/config/
 export default defineConfig({
