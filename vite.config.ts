@@ -4,7 +4,7 @@ import { glideSourceStamping } from '@srivarsank/glide'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), glideSourceStamping()],
+  plugins: [glideSourceStamping(), react()],
   server: {
     // Allow embedding this dev server in Glide's visual canvas iframe
     headers: {
